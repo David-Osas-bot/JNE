@@ -1,5 +1,6 @@
 import "./home.css";
 import bg from "../../assets/city.png";
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
     return (
@@ -8,9 +9,18 @@ const Home = () => {
             style={{ backgroundImage: `url(${bg})` }}>
 
             <div className="home_writeup">
-                <span>
-                   <em className="welcome"> Welcome to</em> Jive Nation Entertainment Ltd.
+                <span className="type-wrapper">
+                    <em className="welcome"> Welcome to</em>
 
+                    <Typewriter
+                        words={['Jive Nation Entertainment Ltd.']}
+                        loop={0}
+                        cursor
+                        cursorStyle="|"
+                        typeSpeed={80}
+                        deleteSpeed={60}
+                        delaySpeed={1200}
+                    />
                 </span>
             </div>
         </div>

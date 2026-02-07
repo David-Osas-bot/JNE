@@ -35,7 +35,7 @@
 
 .mission_title, .vision_title{
     font-size: 30px;
-    color: var(--color-primary);
+    color: var(--color-white);
     font-weight: var(--font-wgt);
 }
 

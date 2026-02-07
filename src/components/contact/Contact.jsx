@@ -44,7 +44,7 @@ const Contact = () => {
 
                 
                 <div className="contact_img_div">
-                    <img src={CALL} alt="" />
+                    <img src={CALL} alt="call_img" />
                 </div>
 
                 <div className="form_div">

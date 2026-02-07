@@ -22,7 +22,7 @@
     .welcome {
         font-size: 50px;
         margin-left: 5%;
-        color: var(--color-primary);
+        color: var(--color-white);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: var(--font-wgt);
     }
@@ -31,6 +31,13 @@
         color: black;
         margin-left: 10px;
     }
+}
+
+.type-wrapper {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    color: #d6d63c;
 }
 
 
@@ -43,11 +50,14 @@
 /* RESPONSIVENESS PHASE */
 @media screen and (max-width: 768px) {
     .home_writeup {
-        width: 90%;
+        width: 95%;
+        margin: auto;
+        margin-left: -5%;
+
 
         span,
         .welcome {
-            font-size: 40px;
+            font-size: 30px;
             margin-top: 15%;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-weight: var(--font-wgt);
@@ -57,5 +67,11 @@
             color: black;
             margin-left: 10px;
         }
+
+
+        .type-wrapper {
+            width: 100%;
+        }
     }
+
 }
