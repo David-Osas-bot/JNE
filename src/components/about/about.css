@@ -1,0 +1,78 @@
+.about{
+    width: 80%;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.about_writeup{
+    width: 40%;
+    height: 300px;
+}
+
+.about_img{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+.about_title span{
+   
+    font-size: 30px;
+    color: var(--color-black);
+    font-weight: var(--font-wgt);
+}
+
+.about_p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS PHASE */
+@media screen and (max-width: 768px) {
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 900px;
+    }
+
+    .about_img{
+        width: 100%;
+        height: 400px;
+
+        img{
+            max-width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+
+    .about_writeup{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+    }
+}

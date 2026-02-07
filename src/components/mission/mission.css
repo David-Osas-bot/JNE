@@ -1,0 +1,72 @@
+.mission_container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    width: 80%;
+    height: 500px;
+    margin-top: 6%;
+    color: white;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        width: 400px;
+        height: 100%;
+    }
+}
+
+.mission_title, .vision_title{
+    font-size: 30px;
+    color: var(--color-primary);
+    font-weight: var(--font-wgt);
+}
+
+.mission_p,
+.vision_p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS PHASE */
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 70%;
+
+        div{
+            width: 100%;
+            height: 300px;
+            text-align: center;
+        }
+    }
+}
