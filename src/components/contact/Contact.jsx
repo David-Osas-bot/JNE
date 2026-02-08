@@ -3,7 +3,8 @@ import React from 'react'
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import CALL from "../../assets/call.jpg";
-// winget install --id Git.Git -e
+import { motion } from "framer-motion";
+
 
 const Contact = () => {
 
@@ -40,37 +41,44 @@ const Contact = () => {
 
             <span className="contact_title">CONTACT US</span>
 
-            <div className="contact_container">
+            <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+            >
 
-                
-                <div className="contact_img_div">
-                    <img src={CALL} alt="call_img" />
+                <div className="contact_container">
+
+
+                    <div className="contact_img_div">
+                        <img src={CALL} alt="call_img" />
+                    </div>
+
+                    <div className="form_div">
+                        <form ref={form} onSubmit={sendEmail}>
+                            <input type="text" name='name' placeholder='Enter Full Name' required />
+                            <input type="email" name='email' placeholder='Enter Email' required />
+                            <textarea name="message" rows="7" placeholder='Enter Message' required></textarea>
+
+                            <button type='submit' className='submit_btn' disabled={loading}>
+                                {loading ? 'Sending...' : 'Send message'}
+                            </button>
+
+                            {status === 'success' && (
+                                <p className="success-msg">Message sent successfully...</p>
+                            )}
+
+                            {status === 'error' && (
+                                <p className="error-msg">Failed to send message</p>
+                            )}
+                        </form>
+
+                    </div>
+
                 </div>
 
-                <div className="form_div">
-                    <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" name='name' placeholder='Enter Full Name' required />
-                        <input type="email" name='email' placeholder='Enter Email' required />
-                        <textarea name="message" rows="7" placeholder='Enter Message' required></textarea>
-                        {/* <button type='submit' className='btn btn-primary'>Send message</button> */}
-
-                        <button type='submit' className='submit_btn' disabled={loading}>
-                            {loading ? 'Sending...' : 'Send message'}
-                        </button>
-
-                        {status === 'success' && (
-                            <p className="success-msg">Message sent successfully...</p>
-                        )}
-
-                        {status === 'error' && (
-                            <p className="error-msg">Failed to send message</p>
-                        )}
-                    </form>
-
-                </div>
-
-            </div>
-
+            </motion.div>
 
 
         </div>
