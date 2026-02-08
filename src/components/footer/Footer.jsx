@@ -1,5 +1,8 @@
 import "./footer.css";
 import JNE from "../../assets/jne.png";
+import { FaFacebookF } from "react-icons/fa";
+import { CgInstagram } from "react-icons/cg";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -23,7 +26,39 @@ const Footer = () => {
             </main>
 
             <aside>
+                <ul className="footer_links">
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
 
+                    <li>
+                        <a href="#services">Our Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#mission">Our Mission</a>
+                    </li>
+
+                    <li>
+                        <a href="#mission">Our Vision</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <div className="footer_socials">
+                        <a href="https://facebook.com"><FaFacebookF /></a>
+                        <a href="https://instagram.com"><CgInstagram /></a>
+                        <a href="https://twitter.com"><FaXTwitter /></a>
+                    </div>
+
+                    <div className="footer_copyright">
+                        <small>&copy; Jive Nation Entertainment. All rights reserved</small>
+                    </div>
+                </div>
             </aside>
         </div>
     );
