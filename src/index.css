@@ -17,7 +17,7 @@ body {
 }
 
 :root {
-    overflow-y: auto;
+    /* overflow-y: auto; */
     --color-primary: rgb(202, 202, 57);
     --font-sz: 16px;
     --font-wgt: 800;
