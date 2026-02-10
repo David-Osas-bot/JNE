@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
     return (
-        <div className="home"
+        <div className="home" id="home"
             style={{ backgroundImage: `url(${pic3})` }}>
             <motion.div
                 initial={{ opacity: 0, y: 80 }}

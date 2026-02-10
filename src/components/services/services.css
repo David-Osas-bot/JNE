@@ -62,7 +62,7 @@
 @media screen and (max-width: 768px) {
 
     .services{
-        height: 1000px;
+        height: 1100px;
         padding-bottom: 10%;
     }
     .services_container {
@@ -81,6 +81,6 @@
     .services_img_div {
         width: 95%;
         margin-left: 1%;
-        margin-top: 12%;
+        margin-top: 16%;
     }
 }

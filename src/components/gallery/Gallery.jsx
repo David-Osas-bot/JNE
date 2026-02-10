@@ -1,11 +1,16 @@
 import "./gallery.css";
 import PIC1 from "../../assets/pic1.jpeg";
-import PIC2 from "../../assets/pic2.jpeg";
 import PIC3 from "../../assets/pic3.jpeg";
 import PIC4 from "../../assets/pic4.jpeg";
 import PIC5 from "../../assets/pic4.jpeg";
 import PIC6 from "../../assets/pic6.jpeg";
-import PIC7 from "../../assets/pic7.jpeg";
+import PIC8 from "../../assets/pic8.jpeg";
+import PIC9 from "../../assets/pic9.jpeg";
+import PIC10 from "../../assets/pic10.jpeg";
+import VID1 from "../../assets/vid1.mp4";
+import VID2 from "../../assets/vid2.mp4";
+
+
 
 
 
@@ -17,7 +22,7 @@ const Gallery = () => {
                     <img src={PIC1} alt="" />
                 </div>
                 <div className="items" style={{ '--position': 2 }}>
-                    <img src={PIC2} alt="" />
+                    <img src={PIC9} alt="" />
 
                 </div>
                 <div className="items" style={{ '--position': 3 }}>
@@ -37,18 +42,31 @@ const Gallery = () => {
 
                 </div>
                 <div className="items" style={{ '--position': 7 }}>
-                    <img src={PIC7} alt="" />
+                    <img src={PIC10} alt="" />
                 </div>
                 <div className="items" style={{ '--position': 8 }}>
-                    <img src={PIC3} alt="" />
-
+                    <video
+                        src={VID1}
+                        autoPlay
+                        muted
+                        loop
+                        controls
+                        style={{ width: "100%" }}
+                    />
                 </div>
                 <div className="items" style={{ '--position': 9 }}>
-                    <img src={PIC3} alt="" />
+                    <video
+                        src={VID2}
+                        autoPlay
+                        muted
+                        loop
+                        controls
+                        style={{ width: "100%" }}
+                    />
 
                 </div>
                 <div className="items" style={{ '--position': 10 }}>
-                    <img src={PIC3} alt="" />
+                    <img src={PIC8} alt="" />
 
                 </div>
             </div>
