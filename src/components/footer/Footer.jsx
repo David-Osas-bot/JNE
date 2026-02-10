@@ -27,8 +27,12 @@ const Footer = () => {
 
             <aside>
                 <ul className="footer_links">
+                     <li>
+                        <a href="#home">Home</a>
+                    </li>
+
                     <li>
-                        <a href="#about">About Us</a>
+                        <a href="#about">About</a>
                     </li>
 
                     <li>
@@ -44,7 +48,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#about" onClick={() => setIsOpen(false)}>Gallery</a>
+                        <a href="#gallery">Gallery</a>
                     </li>
 
                     <li>
