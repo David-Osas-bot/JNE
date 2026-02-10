@@ -63,6 +63,7 @@
 
     .services{
         height: 1000px;
+        padding-bottom: 10%;
     }
     .services_container {
         width: 100%;

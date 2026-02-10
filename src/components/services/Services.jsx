@@ -40,7 +40,7 @@ const Services = () => {
                             Event Styling & Coordination
                             Venue coordination, décor planning, scheduling, and supplier management.
 
-                            Each event is tailored to suit your vision, budget, and style. MISSION
+                            Each event is tailored to suit your vision, budget, and style.
                         </p>
                     </div>
 
