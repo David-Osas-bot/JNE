@@ -2,7 +2,7 @@ import "./gallery.css";
 import PIC1 from "../../assets/pic1.jpeg";
 import PIC3 from "../../assets/pic3.jpeg";
 import PIC4 from "../../assets/pic4.jpeg";
-import PIC5 from "../../assets/pic4.jpeg";
+import PIC5 from "../../assets/pic5.jpeg";
 import PIC6 from "../../assets/pic6.jpeg";
 import PIC8 from "../../assets/pic8.jpeg";
 import PIC9 from "../../assets/pic9.jpeg";
