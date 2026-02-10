@@ -44,6 +44,10 @@ const Footer = () => {
                     </li>
 
                     <li>
+                        <a href="#about" onClick={() => setIsOpen(false)}>Gallery</a>
+                    </li>
+
+                    <li>
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>

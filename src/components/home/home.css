@@ -23,7 +23,6 @@
         font-size: 50px;
         margin-left: 5%;
         color: var(--color-white);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: var(--font-wgt);
     }
 
@@ -58,7 +57,6 @@
         .welcome {
             font-size: 30px;
             margin-top: 15%;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-weight: var(--font-wgt);
         }
 
