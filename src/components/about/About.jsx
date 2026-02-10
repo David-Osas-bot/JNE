@@ -1,5 +1,5 @@
 import "./about.css";
-import ABOUT from "../../assets/about.jpg";
+import PIC2 from "../../assets/pic2.jpeg";
 import { motion } from "framer-motion";
 
 
@@ -18,7 +18,7 @@ const About = () => {
 
                 <div className="about_container">
                     <div className="about_img">
-                        <img src={ABOUT} alt="about_img" />
+                        <img src={PIC2} alt="about_img" />
                     </div>
 
                     <div className="about_writeup">

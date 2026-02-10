@@ -1,12 +1,12 @@
 import "./home.css";
-import bg from "../../assets/city.png";
+import pic3 from "../../assets/pic3.jpeg";
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from "framer-motion";
 
 const Home = () => {
     return (
         <div className="home"
-            style={{ backgroundImage: `url(${bg})` }}>
+            style={{ backgroundImage: `url(${pic3})` }}>
             <motion.div
                 initial={{ opacity: 0, y: 80 }}
                 whileInView={{ opacity: 1, y: 0 }}

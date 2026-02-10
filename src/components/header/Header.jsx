@@ -14,23 +14,23 @@ const Header = () => {
 
             <ul className={`links ${isOpen ? "active" : ""}`}>
                 <li>
-                    <a href="#about">About Us</a>
+                    <a href="#about" onClick={() => setIsOpen(false)}>About Us</a>
                 </li>
 
                 <li>
-                    <a href="#services">Our Services</a>
+                    <a href="#services" onClick={() => setIsOpen(false)}>Our Services</a>
                 </li>
 
                 <li>
-                    <a href="#mission">Our Mission</a>
+                    <a href="#mission" onClick={() => setIsOpen(false)}>Our Mission</a>
                 </li>
 
                 <li>
-                    <a href="#mission">Our Vision</a>
+                    <a href="#mission" onClick={() => setIsOpen(false)}>Our Vision</a>
                 </li>
 
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
                 </li>
             </ul>
 

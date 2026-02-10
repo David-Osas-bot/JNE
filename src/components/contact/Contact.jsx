@@ -2,7 +2,7 @@ import "./contact.css";
 import React from 'react'
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import CALL from "../../assets/call.jpg";
+import PIC6 from "../../assets/pic6.jpeg";
 import { motion } from "framer-motion";
 
 
@@ -52,7 +52,7 @@ const Contact = () => {
 
 
                     <div className="contact_img_div">
-                        <img src={CALL} alt="call_img" />
+                        <img src={PIC6} alt="call_img" />
                     </div>
 
                     <div className="form_div">

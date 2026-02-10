@@ -1,5 +1,6 @@
 import "./services.css";
-import SERVICES from "../../assets/service.jpg";
+import PIC4 from "../../assets/pic4.jpeg";
+
 import { motion } from "framer-motion";
 
 
@@ -44,7 +45,7 @@ const Services = () => {
                     </div>
 
                     <div className="services_img_div">
-                        <img src={SERVICES} alt="services_img" />
+                        <img src={PIC4} alt="services_img" />
                     </div>
                 </div>
             </motion.div>

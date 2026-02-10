@@ -1,5 +1,5 @@
 import "./footer.css";
-import JNE from "../../assets/jne.png";
+import PIC7 from "../../assets/pic7.jpeg";
 import { FaFacebookF } from "react-icons/fa";
 import { CgInstagram } from "react-icons/cg";
 import { FaXTwitter } from "react-icons/fa6";
@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='footer' id="footer">
             <div>
-                <img src={JNE} alt="JNE_img" />
+                <img src={PIC7} alt="JNE_img" />
             </div>
 
             <main>
